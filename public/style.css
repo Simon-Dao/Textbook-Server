@@ -1,0 +1,56 @@
+:root {
+    font-size: 16px;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(72, 132, 53);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.text-container {
+    background-color: rgb(84, 155, 62);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 3vh;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 0 1rem 10.5rem;
+}
+
+.back-button {
+    width: 10rem;
+    height: 5rem;
+    border-radius: 1.5rem;
+    background-color: white;
+    opacity: .7;
+    position: fixed;
+    bottom: 3rem;
+    right: 4rem;
+    transition: opacity 100ms ease-in;
+}
+
+.back-button:hover {
+    opacity: 1;
+}
+
+.back-text {
+    position: relative;
+    width: 100%;
+    height: 10%;
+    color: rgb(28, 41, 76);
+    font-size: 3rem;
+
+    left: 1.5rem;
+    bottom: 1.2rem;
+}
